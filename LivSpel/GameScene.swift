@@ -79,8 +79,10 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
 			return
 		}
 		
+		let durationBetweenSpawns = max(0.1, 1.0 - (Double(score)/100.0))
+		
 		let diff = currentTime - last
-		if diff > 1 {
+		if diff > durationBetweenSpawns {
 			last = currentTime
 			
 			let freddy = freddys[Int(arc4random_uniform(UInt32(freddys.count)))]
@@ -89,7 +91,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
 			
 			score = score + 1
 			self.scoreLabel.text = "\(score)"
-
+			
+			self.physicsWorld.gravity = CGVectorMake(0, CGFloat(-10.0 - Double(score)/10.0))
 		}
     }
 	
