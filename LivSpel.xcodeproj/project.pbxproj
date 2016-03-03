@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		056E8BD91C87E6BE00AE3F17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056E8BD81C87E6BE00AE3F17 /* AppDelegate.swift */; };
+		056E8BDB1C87E6BE00AE3F17 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 056E8BDA1C87E6BE00AE3F17 /* GameScene.sks */; };
+		056E8BDD1C87E6BE00AE3F17 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056E8BDC1C87E6BE00AE3F17 /* GameScene.swift */; };
+		056E8BDF1C87E6BE00AE3F17 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056E8BDE1C87E6BE00AE3F17 /* GameViewController.swift */; };
+		056E8BE21C87E6BE00AE3F17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 056E8BE01C87E6BE00AE3F17 /* Main.storyboard */; };
+		056E8BE41C87E6BE00AE3F17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 056E8BE31C87E6BE00AE3F17 /* Assets.xcassets */; };
+		056E8BE71C87E6BE00AE3F17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 056E8BE51C87E6BE00AE3F17 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		056E8BD51C87E6BE00AE3F17 /* LivSpel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LivSpel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		056E8BD81C87E6BE00AE3F17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		056E8BDA1C87E6BE00AE3F17 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		056E8BDC1C87E6BE00AE3F17 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		056E8BDE1C87E6BE00AE3F17 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		056E8BE11C87E6BE00AE3F17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		056E8BE31C87E6BE00AE3F17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		056E8BE61C87E6BE00AE3F17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		056E8BE81C87E6BE00AE3F17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		056E8BD21C87E6BE00AE3F17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		056E8BCC1C87E6BE00AE3F17 = {
+			isa = PBXGroup;
+			children = (
+				056E8BD71C87E6BE00AE3F17 /* LivSpel */,
+				056E8BD61C87E6BE00AE3F17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		056E8BD61C87E6BE00AE3F17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				056E8BD51C87E6BE00AE3F17 /* LivSpel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		056E8BD71C87E6BE00AE3F17 /* LivSpel */ = {
+			isa = PBXGroup;
+			children = (
+				056E8BD81C87E6BE00AE3F17 /* AppDelegate.swift */,
+				056E8BDA1C87E6BE00AE3F17 /* GameScene.sks */,
+				056E8BDC1C87E6BE00AE3F17 /* GameScene.swift */,
+				056E8BDE1C87E6BE00AE3F17 /* GameViewController.swift */,
+				056E8BE01C87E6BE00AE3F17 /* Main.storyboard */,
+				056E8BE31C87E6BE00AE3F17 /* Assets.xcassets */,
+				056E8BE51C87E6BE00AE3F17 /* LaunchScreen.storyboard */,
+				056E8BE81C87E6BE00AE3F17 /* Info.plist */,
+			);
+			path = LivSpel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		056E8BD41C87E6BE00AE3F17 /* LivSpel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 056E8BEB1C87E6BE00AE3F17 /* Build configuration list for PBXNativeTarget "LivSpel" */;
+			buildPhases = (
+				056E8BD11C87E6BE00AE3F17 /* Sources */,
+				056E8BD21C87E6BE00AE3F17 /* Frameworks */,
+				056E8BD31C87E6BE00AE3F17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LivSpel;
+			productName = LivSpel;
+			productReference = 056E8BD51C87E6BE00AE3F17 /* LivSpel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		056E8BCD1C87E6BE00AE3F17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ThirdCog;
+				TargetAttributes = {
+					056E8BD41C87E6BE00AE3F17 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 056E8BD01C87E6BE00AE3F17 /* Build configuration list for PBXProject "LivSpel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 056E8BCC1C87E6BE00AE3F17;
+			productRefGroup = 056E8BD61C87E6BE00AE3F17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				056E8BD41C87E6BE00AE3F17 /* LivSpel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		056E8BD31C87E6BE00AE3F17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056E8BDB1C87E6BE00AE3F17 /* GameScene.sks in Resources */,
+				056E8BE71C87E6BE00AE3F17 /* LaunchScreen.storyboard in Resources */,
+				056E8BE41C87E6BE00AE3F17 /* Assets.xcassets in Resources */,
+				056E8BE21C87E6BE00AE3F17 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		056E8BD11C87E6BE00AE3F17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056E8BDD1C87E6BE00AE3F17 /* GameScene.swift in Sources */,
+				056E8BDF1C87E6BE00AE3F17 /* GameViewController.swift in Sources */,
+				056E8BD91C87E6BE00AE3F17 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		056E8BE01C87E6BE00AE3F17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				056E8BE11C87E6BE00AE3F17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		056E8BE51C87E6BE00AE3F17 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				056E8BE61C87E6BE00AE3F17 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		056E8BE91C87E6BE00AE3F17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		056E8BEA1C87E6BE00AE3F17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		056E8BEC1C87E6BE00AE3F17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LivSpel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eu.thirdcog.LivSpel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		056E8BED1C87E6BE00AE3F17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LivSpel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eu.thirdcog.LivSpel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		056E8BD01C87E6BE00AE3F17 /* Build configuration list for PBXProject "LivSpel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				056E8BE91C87E6BE00AE3F17 /* Debug */,
+				056E8BEA1C87E6BE00AE3F17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		056E8BEB1C87E6BE00AE3F17 /* Build configuration list for PBXNativeTarget "LivSpel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				056E8BEC1C87E6BE00AE3F17 /* Debug */,
+				056E8BED1C87E6BE00AE3F17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 056E8BCD1C87E6BE00AE3F17 /* Project object */;
+}
