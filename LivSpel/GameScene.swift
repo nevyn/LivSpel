@@ -30,7 +30,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
 
 	
 		liv.size = CGSize(width: 100, height: 100)
-		liv.position = CGPoint(x: self.size.width/2, y: self.size.height/2)
+		liv.position = CGPoint(x: self.size.width/2, y: self.size.height*0.2)
 		
 		let livBody = SKPhysicsBody(circleOfRadius: 50)
 		livBody.mass = 10000000;
@@ -97,6 +97,10 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     }
 	
 	func didBeginContact(contact: SKPhysicsContact) {
+		NSUserDefaults.standardUserDefaults().setInteger(score, forKey: "lastScore")
+		if(NSUserDefaults.standardUserDefaults().integerForKey("highestScore") < score) {
+			NSUserDefaults.standardUserDefaults().setInteger(score, forKey: "highestScore")
+		}
 		self.view!.presentScene(GameOverScene(size:self.size), transition: SKTransition.doorsCloseHorizontalWithDuration(1))
 	}
 
