@@ -8,24 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		056E8BD91C87E6BE00AE3F17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056E8BD81C87E6BE00AE3F17 /* AppDelegate.swift */; };
-		056E8BDB1C87E6BE00AE3F17 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 056E8BDA1C87E6BE00AE3F17 /* GameScene.sks */; };
 		056E8BDD1C87E6BE00AE3F17 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056E8BDC1C87E6BE00AE3F17 /* GameScene.swift */; };
 		056E8BDF1C87E6BE00AE3F17 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056E8BDE1C87E6BE00AE3F17 /* GameViewController.swift */; };
 		056E8BE21C87E6BE00AE3F17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 056E8BE01C87E6BE00AE3F17 /* Main.storyboard */; };
 		056E8BE41C87E6BE00AE3F17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 056E8BE31C87E6BE00AE3F17 /* Assets.xcassets */; };
 		056E8BE71C87E6BE00AE3F17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 056E8BE51C87E6BE00AE3F17 /* LaunchScreen.storyboard */; };
+		056E8BEF1C87EB6A00AE3F17 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056E8BEE1C87EB6A00AE3F17 /* GameOverScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		056E8BD51C87E6BE00AE3F17 /* LivSpel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LivSpel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		056E8BD81C87E6BE00AE3F17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		056E8BDA1C87E6BE00AE3F17 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		056E8BDC1C87E6BE00AE3F17 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		056E8BDE1C87E6BE00AE3F17 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		056E8BE11C87E6BE00AE3F17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		056E8BE31C87E6BE00AE3F17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		056E8BE61C87E6BE00AE3F17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		056E8BE81C87E6BE00AE3F17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		056E8BEE1C87EB6A00AE3F17 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				056E8BD81C87E6BE00AE3F17 /* AppDelegate.swift */,
-				056E8BDA1C87E6BE00AE3F17 /* GameScene.sks */,
-				056E8BDC1C87E6BE00AE3F17 /* GameScene.swift */,
 				056E8BDE1C87E6BE00AE3F17 /* GameViewController.swift */,
+				056E8BDC1C87E6BE00AE3F17 /* GameScene.swift */,
+				056E8BEE1C87EB6A00AE3F17 /* GameOverScene.swift */,
 				056E8BE01C87E6BE00AE3F17 /* Main.storyboard */,
 				056E8BE31C87E6BE00AE3F17 /* Assets.xcassets */,
 				056E8BE51C87E6BE00AE3F17 /* LaunchScreen.storyboard */,
@@ -102,6 +102,7 @@
 				TargetAttributes = {
 					056E8BD41C87E6BE00AE3F17 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = M4Q2TE45WT;
 					};
 				};
 			};
@@ -128,7 +129,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				056E8BDB1C87E6BE00AE3F17 /* GameScene.sks in Resources */,
 				056E8BE71C87E6BE00AE3F17 /* LaunchScreen.storyboard in Resources */,
 				056E8BE41C87E6BE00AE3F17 /* Assets.xcassets in Resources */,
 				056E8BE21C87E6BE00AE3F17 /* Main.storyboard in Resources */,
@@ -144,6 +144,7 @@
 			files = (
 				056E8BDD1C87E6BE00AE3F17 /* GameScene.swift in Sources */,
 				056E8BDF1C87E6BE00AE3F17 /* GameViewController.swift in Sources */,
+				056E8BEF1C87EB6A00AE3F17 /* GameOverScene.swift in Sources */,
 				056E8BD91C87E6BE00AE3F17 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,10 +258,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = LivSpel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = eu.thirdcog.LivSpel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -268,10 +272,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = LivSpel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = eu.thirdcog.LivSpel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -294,6 +301,7 @@
 				056E8BED1C87E6BE00AE3F17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
